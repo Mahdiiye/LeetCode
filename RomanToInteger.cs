@@ -5,7 +5,7 @@ public class Solution
     static void Main(string[] args)
     {
         var solution = new Solution();
-        var i = solution.Convertt("MCMXCIV");
+        var i = solution.Convertt(Console.ReadLine());
         Console.ReadKey();
     }
 
@@ -19,7 +19,7 @@ public class Solution
         for (int i = 0; i < n.Length; i++)
         {
             sNum[i] = Array.IndexOf(s, n[i]);
-           // Console.WriteLine(sNum[i]);
+            Console.WriteLine(sNum[i]);
         }
 
         for (int i = 0; i < n.Length; i++)
@@ -83,7 +83,7 @@ public class Solution
 
 
 
-        //Console.WriteLine(num);
+        Console.WriteLine(num);
 
 
         return num;
